@@ -6,7 +6,7 @@ let answers = await inquirer.prompt([
     name: "calculate",
     type: "string",
     message:
-      "Which operation do you want to perform? \t add \t sub \t mul \t div \n",
+      "Which operation do you want to perform?\n\tOptions:\tadd\tsub\tmul\tdiv\n",
   },
 ]);
 
